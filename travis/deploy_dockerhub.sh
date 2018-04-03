@@ -1,6 +1,6 @@
 #!/bin/sh
 
-docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+docker login -u $DOCKER_USER -p $DOCKER_PASS
 
 if [ "$TRAVIS_BRANCH" = "master" ]; then
 
@@ -12,6 +12,6 @@ else
 
 fi
 
-docker build -f Dockerfile -t $DOCKER_REPONAME\$DOCKER_APPNAME:$TAG .
+docker build -f Dockerfile -t $DOCKER_REPONAME\\$DOCKER_APPNAME:$TAG .
 
-docker push $DOCKER_REPONAME\$DOCKER_APPNAME
+docker push $DOCKER_REPONAME\\$DOCKER_APPNAME
