@@ -12,6 +12,6 @@ else
 
 fi
 
-docker build -f Dockerfile -t $TRAVIS_REPO_SLUG:$TAG .
+docker build -f Dockerfile -t $DOCKER_REPONAME\$DOCKER_APPNAME:$TAG .
 
-docker push $TRAVIS_REPO_SLUG
+docker push $DOCKER_REPONAME\$DOCKER_APPNAME
