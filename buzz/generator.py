@@ -3,7 +3,7 @@ import random
 
 
 
- buzz = ('continuous testing', 'continuous integration',
+buzz = ('continuous testing', 'continuous integration',
 
     'continuous deployment', 'continuous improvement', 'devops')
 
