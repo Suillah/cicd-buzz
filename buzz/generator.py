@@ -3,9 +3,10 @@ import random
 
 
 
-buzz = ('continuous testing', 'continuous integration',
-
-    'continuous deployment', 'continuous improvement', 'devops')
+# buzz = ('continuous testing', 'continuous integration',
+#
+#    'continuous deployment', 'continuous improvement', 'devops')
+buzz = ('')
 
 adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
 
