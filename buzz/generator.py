@@ -8,7 +8,7 @@ buzz = ('continuous testing', 'continuous integration',
     'continuous deployment', 'continuous improvement', 'devops')
 
 
-adjectives = ('complete', 'oldi', 'self-service', 'integrated', 'end-to-end')
+adjectives = ('complete', 'old', 'self-service', 'integrated', 'end-to-end')
 
 adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
 
